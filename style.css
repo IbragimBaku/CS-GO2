@@ -19,12 +19,7 @@ h1{
     border-radius: 15px 15px 0 0;
     text-align: center;
 }
-iframe{
-    border-bottom: 2px solid black;
-    border-radius: 0 0 15px 15px;
-    height: 80vh;
-}
-.btn-new {
+button {
     border: none;
     border-radius: 10px;
     text-decoration: none;
@@ -33,7 +28,7 @@ iframe{
     box-shadow: 0 5px 0 #003CC5;
 }
 
-.btn-new:hover {
+button:hover {
     background: #003CC5;
     box-shadow: none;
     position: relative;
